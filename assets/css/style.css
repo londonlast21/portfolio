@@ -1,3 +1,9 @@
+:root {
+    --primary-color: cornflowerblue;
+    --secondary-color: lightskyblue;
+    --tertiary-color: lightseagreen;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,21 +18,21 @@ body {
 
 /*header styling*/
 header {
-    padding: 30px 45px;
+    padding: 20px 35px;
     background-color: blanchedalmond;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 10%;
 }
 header h1 {
-    color: paleturquoise;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     margin: 0;
 }
 header a {
     text-decoration: none;
-    color: cornflowerblue;
+    color: var(--primary-color);
 }
 header nav {
     margin: 7px 0;
@@ -41,8 +47,19 @@ header nav ul li a {
     font-size: 28px;
 }
 .section-title {
-    color: #008000;
+    color: var(--secondary-color);
 }
+
+/*hero styling start*/
+.hero {
+    text-align: right;
+}
+
+/*hero styling end*/
+
+
+
+
 
 /*work item grid styling start*/
 .works {
@@ -73,18 +90,26 @@ header nav ul li a {
     padding: 15px 0;
     width: span;
     height: span;
-    border: black solid;
+    border: 2px solid var(--secondary-color);
     background-color: burlywood;
     
 }
 
 .work-grid-item.bigproj {
-    background-image: url("../images/run-buddy.png");
-    background-size: cover;
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
-    
+    background-image: url("../images/run-buddy.png");
+    background-position: center;
+    background-size: cover;
+  
 
+}
+
+.work-grid-item p {
+    display: flex;
+    background: peachpuff;
+    width: 100px;
+    border: 2px solid var(--secondary-color);
 }
 
 /*media query for smaller desktop comps 980px*/
