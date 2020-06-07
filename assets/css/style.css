@@ -53,6 +53,10 @@ header nav ul li a {
 /*hero styling start*/
 .hero {
     text-align: right;
+    
+    background-image: url("")
+    background-position: center;
+
 }
 
 /*hero styling end*/
@@ -99,8 +103,9 @@ header nav ul li a {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
     background-image: url("../images/run-buddy.png");
-    background-position: center;
     background-size: cover;
+    background-position: 80%;
+    
   
 
 }
@@ -111,6 +116,15 @@ header nav ul li a {
     width: 100px;
     border: 2px solid var(--secondary-color);
 }
+
+/*work grid styling end*/
+
+/*contact styling start*/
+
+
+
+
+/*contact styling end*/
 
 /*media query for smaller desktop comps 980px*/
 /*media query for tablets and smaller 768px*/
