@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*body styling start*/
+body {
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*body styling end*/
+
+/*header styling*/
+header {
+    padding: 30px 45px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header h1 {
+    color: paleturquoise;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+header a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+header nav {
+    margin: 7px 0;
+}
+/*up to here functional*/
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 40px;
+    font-weight: lighter;
+    font-size: 28px;
+}
+.section-title {
+    color: #008000;
+}
+
+/*work item grid styling start*/
+.works {
+    background: white;
+}
+
+.work-grid-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content:;
+    height: 400px;
+
+}
+
+.work-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 80%;
+    border: none;
+    color: white;
+    font-size: 1.7rem;
+    grid-gap: 10px;
+}
+
+
+.work-grid-item {
+    padding: 15px 0;
+    width: span;
+    height: span;
+    border: black solid;
+    background-color: burlywood;
+    
+}
+
+.work-grid-item.bigproj {
+    background-image: url("../images/run-buddy.png");
+    background-size: cover;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    
+
+}
+
+/*media query for smaller desktop comps 980px*/
+/*media query for tablets and smaller 768px*/
+/*media query for mobile phones and smaller 575px*/
