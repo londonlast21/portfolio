@@ -11,24 +11,27 @@
 }
 /*body styling start*/
 body {
-    color: lightseagreen;
+    color: var(--tertiary-color);
     font-family: 'Times New Roman', Times, serif;
 }
 /*body styling end*/
 
 /*header styling*/
 header {
-    padding: 20px 35px;
+    padding: 10px;
     background-color: blanchedalmond;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     height: 10%;
+    margin: auto;
+    
 }
 header h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     margin: 0;
+    color: var(--primary-color)
 }
 header a {
     text-decoration: none;
@@ -37,15 +40,30 @@ header a {
 header nav {
     margin: 7px 0;
 }
-/*up to here functional*/
-header nav ul li {
-    display: inline;
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
+
 header nav ul li a {
     margin: 0 40px;
     font-weight: lighter;
     font-size: 28px;
 }
+
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: palegoldenrod;
+}
+/*working hover color change; up to here good*/
+
+
+
+
 .section-title {
     color: var(--secondary-color);
 }
@@ -53,10 +71,44 @@ header nav ul li a {
 /*hero styling start*/
 .hero {
     text-align: right;
-    
-    background-image: url("")
-    background-position: center;
+}
+.about-me {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
+}
+
+
+
+.about-text {
+    background: palegoldenrod;
+    width: 35%;
+    text-align: left;
+    margin: 3.5%;
+    font-size: 18px;
+    line-height: 1.2;
+  
+
+}
+
+.about-text p {
+    padding: 5px;
+    margin: auto;
+}
+
+.about-image {
+    display: flex;
+    margin: auto;
+
+}
+
+.about-image img {
+    padding: 15px;
+    margin: 15px;
+    max-width: 50%;
+    
+   
 }
 
 /*hero styling end*/
@@ -68,6 +120,7 @@ header nav ul li a {
 /*work item grid styling start*/
 .works {
     background: white;
+    display: flex;
 }
 
 .work-grid-wrapper {
@@ -105,7 +158,7 @@ header nav ul li a {
     background-image: url("../images/run-buddy.png");
     background-size: cover;
     background-position: 80%;
-    
+
   
 
 }
