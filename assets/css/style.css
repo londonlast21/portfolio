@@ -29,7 +29,7 @@ header {
 }
 header h1 {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: bolder;
     margin: 0;
     color: var(--primary-color)
 }
@@ -58,18 +58,22 @@ header nav ul li a {
 header nav ul li a:hover {
     background: var(--secondary-color);
     color: palegoldenrod;
+    border-radius: 15px;
 }
 /*working hover color change; up to here good*/
 
 
-
+/*section titles stylin*/
 
 .section-title {
     color: var(--secondary-color);
+    font-size: 29px;
+    font-weight: bold;
 }
 
 /*hero styling start*/
 .hero {
+    background: slategray;
     text-align: right;
 }
 .about-me {
@@ -91,6 +95,7 @@ header nav ul li a:hover {
   
 
 }
+
 
 .about-text p {
     padding: 5px;
