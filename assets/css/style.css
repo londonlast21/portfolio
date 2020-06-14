@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: darkcyan;
 }
 /*body styling start*/
 body {
@@ -94,6 +95,10 @@ header nav ul li a:hover {
 }*/
 
 /*about img styling*/
+
+.about-me{
+    background-color: burlywood;
+}
 
 .about-row{
     display: flex;

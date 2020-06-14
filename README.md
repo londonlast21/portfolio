@@ -10,6 +10,8 @@ This website is a personal portfolio for Jack L. Cady.
 
 ## Screenshot:
 
+
+
 ## Link to Deployed Application:
 
-[Portfolio](https://github.com/londonlast21/portfolio.git)
+[Portfolio]( https://londonlast21.github.io/portfolio/.)
