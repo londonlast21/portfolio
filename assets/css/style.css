@@ -358,9 +358,10 @@ header nav ul li a:hover {
     }
 
     .about-column-left img {
-        max-width: 440px;
+        width: 500px;
         max-height: 400px;
         position: relative;
+        margin-left: 50px;
 
     }
 
@@ -375,12 +376,31 @@ header nav ul li a:hover {
         margin-bottom: 40px;
     }
 
+    .wrok-grid-wrapper {
+        height: 500px;
+    }
+
     .work-grid-wrapper h2 {
         position: absolute;
+        margin: auto;
+        
     }
 
     .work-grid-item {
         position: relative;
+    }
+
+    .work-grid-container {
+        display: block;
+        padding-top: 55px;
+        height: 45%;
+
+    }
+
+    .work-grid-container a {
+        padding: 15px 0;
+        border: 2px solid var(--secondary-color);
+        height_ 46.33px;
     }
 
     .contact-wrapper {
