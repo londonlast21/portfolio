@@ -377,7 +377,11 @@ header nav ul li a:hover {
     }
 
     .wrok-grid-wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: center;
         height: 500px;
+        
     }
 
     .work-grid-wrapper h2 {
@@ -393,7 +397,8 @@ header nav ul li a:hover {
     .work-grid-container {
         display: block;
         padding-top: 55px;
-        height: 45%;
+        height: 400px;
+
 
     }
 
@@ -401,6 +406,11 @@ header nav ul li a:hover {
         padding: 15px 0;
         border: 2px solid var(--secondary-color);
         height_ 46.33px;
+    }
+
+
+    .contact-me {
+        margin: 5px;
     }
 
     .contact-wrapper {
