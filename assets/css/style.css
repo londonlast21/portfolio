@@ -375,13 +375,15 @@ header nav ul li a:hover {
     .about-column-right p {
         margin-bottom: 40px;
     }
+    
 
-    .wrok-grid-wrapper {
+
+    .work-grid-wrapper {
         display: flex;
         width: 100%;
         justify-content: center;
         height: 500px;
-        
+
     }
 
     .work-grid-wrapper h2 {
@@ -397,7 +399,7 @@ header nav ul li a:hover {
     .work-grid-container {
         display: block;
         padding-top: 55px;
-        height: 400px;
+        height: 300px;
 
 
     }
@@ -407,6 +409,8 @@ header nav ul li a:hover {
         border: 2px solid var(--secondary-color);
         height_ 46.33px;
     }
+
+    
 
 
     .contact-me {
