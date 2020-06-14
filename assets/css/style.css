@@ -94,6 +94,7 @@ header nav ul li a:hover {
     
 }*/
 
+\
 
 
 
@@ -101,18 +102,19 @@ header nav ul li a:hover {
 .about-me-wrapper {
     margin-top: 7px;
     margin-bottom: 7px;
-    background-color: darkcyan;
-}
-
-.about-row{
-    display: inline-flex;
-    align-item: flex-start;
     
 
 }
+
+.about-me-wrapper h2 {
+    margin-bottom: 10px;
+}
+
+
 .about-column-left {
     float: left;
     width: 50%;
+    display: inline-block;
 }
 .about-column-left img {
     max-width: 100%;
@@ -121,6 +123,8 @@ header nav ul li a:hover {
 .about-column-right {
     float: right;
     width: 50%;
+    display: inline-block;
+    margin-top: 70px;
 }
 /*about txt styling*/
 .about-column-right h3 {
@@ -128,6 +132,7 @@ header nav ul li a:hover {
     font-size: xx-large;
     padding: auto;
     margin: 15px;
+    color: darksalmon;
 }
 .about-column-right p {
     
@@ -166,6 +171,10 @@ header nav ul li a:hover {
     height: 400px;
     background-color: blanchedalmond;
 
+}
+
+.work-grid-wrapper h2 {
+    margin-right: 36px;
 }
 
 .work-grid-container {
@@ -234,6 +243,10 @@ header nav ul li a:hover {
 
 }
 
+.contact-wrapper h2 {
+    margin-bottom: 12px;
+}
+
 .contact-me {
     width: 100%;
     margin-top: 7px;
@@ -272,8 +285,12 @@ header nav ul li a:hover {
         color: darkseagreen;
     }
 
+    .about-column-right {
+        margin-top: 0px;
+    }
+
     .about-column-right h3 {
-        color: cyan;
+        color: darksalmon;
     }
 
     .about-column-right p {
