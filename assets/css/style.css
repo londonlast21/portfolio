@@ -177,16 +177,19 @@ header nav ul li a:hover {
     
 }
 
-.work-grid-item.bigproj {
+.work-grid-container a {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
     background-image: url("../images/run-buddy.png");
     background-size: cover;
     background-position: center;
 
-  
-
 }
+.work-grid-item.bigproj p {
+    
+}
+
+
 
 .work-grid-item p {
     display: flex;
