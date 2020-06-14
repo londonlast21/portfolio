@@ -7,7 +7,6 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: darkcyan;
 }
 /*body styling start*/
 body {
@@ -94,14 +93,20 @@ header nav ul li a:hover {
     
 }*/
 
-/*about img styling*/
 
-.about-me{
-    background-color: burlywood;
+
+
+/*about img styling*/
+.about-me-wrapper {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: darkcyan;
 }
 
 .about-row{
-    display: flex;
+    display: inline-flex;
+    
+
 }
 .about-column-left {
     float: left;
@@ -157,6 +162,7 @@ header nav ul li a:hover {
     width: 100%;
     justify-content: center;
     height: 400px;
+    background-color: blanchedalmond;
 
 }
 
@@ -208,19 +214,22 @@ header nav ul li a:hover {
 
 
 /*contact styling start*/
+
 .contact-wrapper {
     display: flex;
     justify-content: space-between;
     height: 44px;
-    width: 100%;
-    margin: 1%;
-    margin-right: 20%;
     padding: 5px;
+    background-color: darkcyan;
+    margin-top: 7px;
+    
 
 }
 
 .contact-me {
     width: 100%;
+    margin-top: 7px;
+    background-color: darkcyan;
 }
 
 .contact-links {
