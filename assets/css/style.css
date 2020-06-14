@@ -72,6 +72,7 @@ header nav ul li a:hover {
     font-size: 40px;
     font-weight: bold;
     margin-left: 20px;
+    position: relative;
 }
 
 /*hero styling start*/
@@ -340,10 +341,60 @@ header nav ul li a:hover {
         text-align: center;
     }
 
+    .about-me {
+        
+        flex-wrap: wrap;
+    }
+
+    .about-me-wrapper h2 {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .about-column-left {
+        position: relative;
+        margin: 10px 40px;
+        
+    }
+
     .about-column-left img {
         max-width: 440px;
-        max-height: 300px;
+        max-height: 400px;
+        position: relative;
 
+    }
+
+    .about-column-right {
+        position: relative;
+        width: auto;
+        margin: 50px;
+
+    }
+
+    .about-column-right p {
+        margin-bottom: 40px;
+    }
+
+    .work-grid-wrapper h2 {
+        position: absolute;
+    }
+
+    .work-grid-item {
+        position: relative;
+    }
+
+    .contact-wrapper {
+        display: block;
+        height: auto;
+    }
+
+    .contact-wrapper h2 {
+        text-align: center;
+    }
+
+    .contact-links {
+        display: block;
+        text-align: center;
     }
 
     
