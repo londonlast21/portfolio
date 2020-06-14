@@ -66,7 +66,8 @@ header nav ul li a:hover {
 /*section titles stylin*/
 
 .section-title {
-    
+    text-decoration: underline;
+    text-decoration-color: ;
     color: var(--secondary-color);
     font-size: 40px;
     font-weight: bold;
@@ -244,35 +245,91 @@ header nav ul li a:hover {
     font-size: 1.3rem;
     display: flex;
 }
-
 /*contact styling end*/
+
+
+
+
 
 /*media query for smaller desktop comps 980px*/
 
 
 /*this seems to work ok with default settings*/
-@media screen and (max-width: 980px) {
+/*@media screen and (max-width: 980px) {
 
 }
 
 
 
 /*media query for tablets and smaller 768px*/
-@media screen and (max-width: 768px) {
-    
-    .header {
-        justify-content: center;
+@media (max-width: 768px) {
+    header {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    .section-title {
+        color: darkseagreen;
     }
 
-    .header nav ul {
-        display: inline;
+    .about-column-right h3 {
+        color: cyan;
     }
+
+    .about-column-right p {
+        width: auto;
+        font-size: small;
+        color: cornflowerblue;
+    }
+
+    .contact-links p {
+        color: cornsilk;
+    }
+    
 
 }
 
 
-
 /*media query for mobile phones and smaller 575px*/
 @media screen and (max-width: 575px) {
+
+    * {
+        margin: 0;
+    }
+
+    header h1 a {
+        color: gray;
+    }
+
+    header a {
+        font-size: larger;
+    }
+
+    header nav ul {
+        display: block;
+    }
+
+    header nav ul li a {
+        font-size: 24px;
+    }
+
+    .section-tile {
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .about-column-left img {
+        max-width: 440px;
+        max-height: 300px;
+
+    }
+
+    
+
 
 }
