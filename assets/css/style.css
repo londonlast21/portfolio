@@ -198,13 +198,24 @@ header nav ul li a:hover {
     
 }
 
+.work-grid-item:hover {
+    outline: 5px solid var(--secondary-color);    
+
+}
+
 .work-grid-container a {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
     background-image: url("../images/run-buddy.png");
     background-size: cover;
     background-position: center;
+    
 
+}
+
+.work-grid-container a:hover{
+    outline: 5px solid var(--secondary-color);
+   
 }
 .work-grid-container a p {
     margin: 15px;
@@ -213,9 +224,12 @@ header nav ul li a:hover {
     border: 2px solid var(--secondary-color);
     width: 170px;
     text-align: center;
-    
+
 }
 
+.work-grid-containter a p:hover {
+    outline: 5px solid var(--secondary-color);
+}
 
 
 .work-grid-item p {
