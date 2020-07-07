@@ -120,6 +120,7 @@ header nav ul li a:hover {
 .about-column-left img {
     max-width: 100%;
     max-height: 100%;
+    padding: 12px;
 }
 .about-column-right {
     float: right;
@@ -156,7 +157,7 @@ header nav ul li a:hover {
 .my-works {
     
     background: white;
-    display: block;
+    display: inline;
 }
 
 /*work item grid styling start*/
@@ -169,6 +170,7 @@ header nav ul li a:hover {
     justify-content: center;
     height: 400px;
     background-color: blanchedalmond;
+    padding: 10px;
 
 }
 
@@ -183,13 +185,13 @@ header nav ul li a:hover {
     width: 80%;
     border: none;
     color: white;
-    font-size: 1.7rem;
+
     grid-gap: 10px;
 }
 
 
 .work-grid-item {
-    padding: 15px 0;
+    padding: 15px;
     width: span;
     height: span;
     border: 2px solid var(--secondary-color);
@@ -224,6 +226,7 @@ header nav ul li a:hover {
     border: 2px solid var(--secondary-color);
     width: 170px;
     text-align: center;
+    font-size: 20px;
 
 }
 
@@ -256,20 +259,22 @@ header nav ul li a:hover {
 
 }
 
-.contact-wrapper h2 {
-    margin-bottom: 12px;
+.footer {
+    display: flex;
 }
 
 .contact-me {
     width: 100%;
     margin-top: 7px;
     background-color: darkcyan;
+    text-align: left;
 }
 
 .contact-links {
     margin: 5px;
     font-size: 1.3rem;
     display: flex;
+    justify-content: space-evenly;
 }
 /*contact styling end*/
 
@@ -296,6 +301,7 @@ header nav ul li a:hover {
     }
     .section-title {
         color: darkseagreen;
+        text-align: center;
     }
 
     .about-column-right {
@@ -313,8 +319,10 @@ header nav ul li a:hover {
     }
 
     .contact-links p {
-        color: cornsilk;
+        color: lightblue;
     }
+
+
     
 
 }
@@ -380,7 +388,7 @@ header nav ul li a:hover {
     .about-column-right {
         position: relative;
         width: auto;
-        margin: 50px;
+        
 
     }
 
