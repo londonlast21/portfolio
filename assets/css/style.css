@@ -244,6 +244,14 @@ header nav ul li a:hover {
 
 /*work grid styling end*/
 
+/* individual project styling */
+#project-1 {
+
+    background-image: url("../images/film-skeleton.png");
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 /*contact styling start*/
