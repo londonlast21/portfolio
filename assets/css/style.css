@@ -247,7 +247,13 @@ header nav ul li a:hover {
 /* individual project styling */
 #project-1 {
 
-    background-image: url("../images/film-skeleton.png");
+    background-image: url("../images/filmskelproj.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#project-2 {
+    background-image: url("../images/transforproj.png");
     background-size: cover;
     background-position: center;
 }
