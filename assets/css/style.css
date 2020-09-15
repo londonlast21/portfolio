@@ -254,6 +254,7 @@ header nav ul li a:hover {
 
 #project-2 {
     
+    background-image: url("../images/password.png");
     background-size: cover;
     background-position: center;
 }
